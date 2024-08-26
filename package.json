@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" :"ts-node-dev --respawn --transpile-only src/server.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@types/cors": "^2.8.17",
     "cors": "^2.8.5",
     "express": "^4.19.2"
   }
